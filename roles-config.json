@@ -1,0 +1,14 @@
+[
+  {
+    "label": "Pompompurin",
+    "roleId": "pompompurin_role_id"
+  },
+  {
+    "label": "Pochacco",
+    "roleId": "pochacco_role_id"
+  },
+  {
+    "label": "Tippy",
+    "roleId": "tippy_role_id"
+  }
+]
