@@ -22,8 +22,8 @@ module.exports = {
         const embed = new EmbedBuilder()
             .setColor('#FFDDC1') // Een zachte, pastelkleur
             .setTitle('Kies je Sanrio!')
-            .setDescription('Laat iedereen zien wie je favoriete Sanrio karakter is door een rol te kiezen. Je kunt maar één Sanrio rol tegelijk hebben.')
-            .setImage('https://c.tenor.com/k-2g8i4l_9AAAAAC/pompompurin.gif') // Een leuke gif
+            .setDescription('Laat iedereen zien wie je favoriete Sanrio karakter is door een rol te kiezen.')
+            .setImage('https://i.imgur.com/7xBy6Kx.jpeg') // Een leuke gif
             .setFooter({ text: 'Selecteer je rol in het menu hieronder.', iconURL: interaction.client.user.displayAvatarURL() });
 
         await interaction.reply({

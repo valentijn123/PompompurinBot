@@ -1,4 +1,5 @@
 const { Events } = require('discord.js');
+const rolesConfig = require('../roles-config.json');
 
 module.exports = {
 	name: Events.InteractionCreate,
@@ -21,13 +22,7 @@ module.exports = {
 			if (interaction.customId === 'role_select') {
 				const selectedRoleId = interaction.values[0];
 				const member = interaction.member;
-
-				// VERVANG DEZE PLACEHOLDERS DOOR DE ECHTE ROL ID'S
-				const sanrioRoleIds = [
-					'pompompurin_role_id',
-					'pochacco_role_id',
-					'tippy_role_id'
-				];
+				const sanrioRoleIds = rolesConfig.map(r => r.roleId);
 
 				const role = interaction.guild.roles.cache.get(selectedRoleId);
 				if (!role) {
