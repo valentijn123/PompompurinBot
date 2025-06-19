@@ -7,10 +7,15 @@ module.exports = {
         .setDescription('Kies je favoriete Sanrio karakter rol!')
         .setDefaultMemberPermissions(PermissionFlagsBits.Administrator),
     async execute(interaction) {
-        const options = rolesConfig.map(role => ({
-            label: role.label,
-            value: role.roleId,
-        }));
+        const member = interaction.member;
+        const options = rolesConfig.map(role => {
+            const hasRole = member.roles.cache.has(role.roleId);
+            return {
+                label: role.label,
+                value: role.roleId,
+                default: hasRole, // Vink de rol aan als de gebruiker hem heeft
+            };
+        });
 
         const selectMenu = new StringSelectMenuBuilder()
             .setCustomId('role_select')
