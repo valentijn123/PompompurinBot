@@ -14,7 +14,7 @@ module.exports = {
 
         const selectMenu = new StringSelectMenuBuilder()
             .setCustomId('role_select')
-            .setPlaceholder('Kies je vriendje!')
+            .setPlaceholder('Kies je Sanrio!')
             .addOptions(options);
 
         const row = new ActionRowBuilder().addComponents(selectMenu);
@@ -23,7 +23,7 @@ module.exports = {
             .setColor('#FFDDC1') // Een zachte, pastelkleur
             .setTitle('Kies je Sanrio!')
             .setDescription('Laat iedereen zien wie je favoriete Sanrio karakter is door een rol te kiezen.')
-            .setImage('https://i.imgur.com/7xBy6Kx.jpeg') // Een leuke gif
+            .setImage('https://i.pinimg.com/originals/45/87/8a/45878a8aa08699b9b8bd13f60903d98e.gif') // Een leuke gif
             .setFooter({ text: 'Selecteer je rol in het menu hieronder.', iconURL: interaction.client.user.displayAvatarURL() });
 
         await interaction.reply({

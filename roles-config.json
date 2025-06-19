@@ -1,14 +1,95 @@
 [
   {
+    "label": "Kuromi",
+    "roleId": "1384828642739097640"
+  },
+  {
+    "label": "Cinnamoroll",
+    "roleId": "1384828708501848154"
+  },
+  {
+    "label": "Hello Kitty",
+    "roleId": "1384828815406137437"
+  },
+  {
     "label": "Pompompurin",
-    "roleId": "pompompurin_role_id"
+    "roleId": "1384828915364921374"
   },
   {
     "label": "Pochacco",
-    "roleId": "pochacco_role_id"
+    "roleId": "1384829152691228762"
+  },
+  {
+    "label": "Badtz-Maru",
+    "roleId": "1384829111175872513"
+  },
+  {
+    "label": "My Melody",
+    "roleId": "1384829408250036337"
+  },
+  {
+    "label": "Tuxedo Sam",
+    "roleId": "1384829638806732911"
+  },
+  {
+    "label": "Cappuccino",
+    "roleId": "1384829760747601920"
   },
   {
     "label": "Tippy",
-    "roleId": "tippy_role_id"
+    "roleId": "1384830100876431430"
+  },
+  {
+    "label": "Shirousa",
+    "roleId": "1384830228324679810"
+  },
+  {
+    "label": "Espresso",
+    "roleId": "1384830396994424862"
+  },
+  {
+    "label": "Mocha",
+    "roleId": "1384831121077833728"
+  },
+  {
+    "label": "Pandausa",
+    "roleId": "1384833428897398825"
+  },
+  {
+    "label": "Monkichi",
+    "roleId": "1384833568143970416"
+  },
+  {
+    "label": "Coro Coro Kuririn",
+    "roleId": "1384833689313214494"
+  },
+  {
+    "label": "Chococat",
+    "roleId": "1384992297535668406"
+  },
+  {
+    "label": "Dear Daniel",
+    "roleId": "1384992718496727102"
+  },
+  {
+    "label": "Jewelpet",
+    "roleId": "1384992884377387049"
+  },
+  {
+    "label": "Keroppi",
+    "roleId": "1384992974621904936"
+  },
+  {
+    "label": "Mimmy",
+    "roleId": "1384993044914503852"
+  },
+  {
+    "label": "Little Twin Stars",
+    "roleId": "1384994033872404521"
+  },
+  {
+    "label": "My Sweet Piano",
+    "roleId": "1385004485209755759"
   }
+  
 ]
