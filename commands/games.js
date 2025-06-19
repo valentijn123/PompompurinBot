@@ -7,6 +7,7 @@ module.exports = {
         .setDescription('Kies je games!')
         .setDefaultMemberPermissions(PermissionFlagsBits.Administrator),
     async execute(interaction) {
+        const member = interaction.member;
         const options = gamesConfig.map(game => {
             const hasRole = member.roles.cache.has(game.roleId);
             return {
